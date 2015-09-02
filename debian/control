@@ -1,0 +1,16 @@
+Source: galliumos-haswell
+Section: admin
+Priority: required
+Maintainer: Hugh Greenberg <hugh@galliumos.org>
+XSBC-Original-Maintainer: Hugh Greenberg <hugh@galliumos.org>
+Standards-Version: 3.9.1
+
+Package: galliumos-haswell
+Provides: haswell
+Architecture: any
+Essential: yes
+Priority: required
+Depends: xf86-input-cmt
+Multi-Arch: foreign
+Description: Gallium OS system files for Haswell ChromeOS devices
+ This package contains Haswell specific files for GalliumOS
