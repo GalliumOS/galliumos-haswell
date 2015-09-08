@@ -1,3 +1,15 @@
+galliumos-haswell (1.0.2) vivid-galliumos; urgency=medium
+
+  * Changes
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 7 Sep 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.1) vivid-galliumos; urgency=medium
+
+  * Changes
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Mon, 7 Sep 2015 22:16:16 -0600
+
 galliumos-haswell (1.0) vivid-galliumos; urgency=medium
 
   * Initial release.
