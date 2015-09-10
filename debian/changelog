@@ -1,3 +1,15 @@
+galliumos-haswell (1.0.6) vivid-galliumos; urgency=medium
+
+  * Changes to slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 8 Sep 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.5) vivid-galliumos; urgency=medium
+
+  * Added machine.slice to limit write bandwith
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 8 Sep 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.4) vivid-galliumos; urgency=medium
 
   * Added systemd slices to limit write bandwith

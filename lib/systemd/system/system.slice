@@ -14,5 +14,5 @@ Wants=-.slice
 After=-.slice
 
 [Slice]
-BlockIOWriteBandwidth=20M
-BlockIOReadBandwidth=20M
+BlockIOWriteBandwidth=5M
+BlockIOReadBandwidth=5M

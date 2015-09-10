@@ -6,10 +6,10 @@
 #  (at your option) any later version.
 
 [Unit]
-Description=User and Session Slice
+Description=Virtual Machine and Container Slice
 Documentation=man:systemd.special(7)
 Before=slices.target
 
 [Slice]
-BlockIOWriteBandwidth=15M
-BlockIOReadBandwidth=15M
+BlockIOWriteBandwidth=5M
+BlockIOReadBandwidth=5M
