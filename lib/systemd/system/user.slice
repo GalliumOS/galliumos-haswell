@@ -9,7 +9,3 @@
 Description=User and Session Slice
 Documentation=man:systemd.special(7)
 Before=slices.target
-
-[Slice]
-BlockIOWriteBandwidth=15M
-BlockIOReadBandwidth=15M

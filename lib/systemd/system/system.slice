@@ -12,7 +12,3 @@ DefaultDependencies=no
 Before=slices.target
 Wants=-.slice
 After=-.slice
-
-[Slice]
-BlockIOWriteBandwidth=5M
-BlockIOReadBandwidth=5M

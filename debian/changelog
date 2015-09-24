@@ -1,3 +1,21 @@
+galliumos-haswell (1.0.9) vivid-galliumos; urgency=medium
+
+  * Changed slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 22 Sep 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.8) vivid-galliumos; urgency=medium
+
+  * Removed systemd sleep scripts and they don't seem to be necessary anymore
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 10 Sep 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.7) vivid-galliumos; urgency=medium
+
+  * Changes to slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 10 Sep 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.6) vivid-galliumos; urgency=medium
 
   * Changes to slice files

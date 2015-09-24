@@ -9,7 +9,3 @@
 Description=Virtual Machine and Container Slice
 Documentation=man:systemd.special(7)
 Before=slices.target
-
-[Slice]
-BlockIOWriteBandwidth=5M
-BlockIOReadBandwidth=5M
