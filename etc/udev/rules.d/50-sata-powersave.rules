@@ -1,2 +1,0 @@
-# From https://github.com/the-unconventional/c720-powersave/tree/master/etc/udev/rules.d
-ACTION=="add", SUBSYSTEM=="scsi_host", ATTR{link_power_management_policy}="min_power"

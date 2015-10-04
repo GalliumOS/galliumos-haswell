@@ -1,3 +1,27 @@
+galliumos-haswell (1.0.13) vivid-galliumos; urgency=medium
+
+  * Removed slice files
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 22 Sep 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.12) vivid-galliumos; urgency=medium
+
+  * Removed power save udev rules. 
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 22 Sep 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.11) vivid-galliumos; urgency=medium
+
+  * Readded wifi sleep script
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 22 Sep 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.10) vivid-galliumos; urgency=medium
+
+  * Removed nicedaemon as a dependency
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Wed, 22 Sep 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.9) vivid-galliumos; urgency=medium
 
   * Changed slice files
