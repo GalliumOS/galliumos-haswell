@@ -1,3 +1,9 @@
+galliumos-haswell (1.0.14) vivid-galliumos; urgency=medium
+
+  * Added touchpad sleep script
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Sat, 10 Oct 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.13) vivid-galliumos; urgency=medium
 
   * Removed slice files
