@@ -9,8 +9,7 @@ Package: galliumos-haswell
 Provides: haswell
 Architecture: any
 Priority: required
-Depends: galliumos-base, xf86-input-cmt, compton
+Depends: galliumos-base
 Replaces: galliumos-broadwell
-Multi-Arch: foreign
 Description: Gallium OS system files for Haswell ChromeOS devices
  This package contains Haswell specific files for GalliumOS

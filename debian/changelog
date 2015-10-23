@@ -1,3 +1,15 @@
+galliumos-haswell (1.0.17) vivid-galliumos; urgency=medium
+
+  * Removed /etc/skel
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 23 Oct 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.16) vivid-galliumos; urgency=medium
+
+  * Modified dependencies
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 15 Oct 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.14) vivid-galliumos; urgency=medium
 
   * Added touchpad sleep script
