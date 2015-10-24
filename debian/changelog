@@ -1,3 +1,15 @@
+galliumos-haswell (1.0.19) vivid-galliumos; urgency=medium
+
+  * Modified debian/control to replace galliumos-device-c710
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Fri, 23 Oct 2015 22:16:16 -0600
+
+galliumos-haswell (1.0.18) vivid-galliumos; urgency=medium
+
+  * Changed architecture to all
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Thu, 23 Oct 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.17) vivid-galliumos; urgency=medium
 
   * Removed /etc/skel
