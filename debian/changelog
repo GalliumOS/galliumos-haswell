@@ -1,3 +1,9 @@
+galliumos-haswell (1.0.20) vivid-galliumos; urgency=medium
+
+  * Added provides in debian/control
+
+ -- Hugh Greenberg <hugh@galliumos.org>  Tue, 27 Oct 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.19) vivid-galliumos; urgency=medium
 
   * Modified debian/control to replace galliumos-device-c710

@@ -6,10 +6,10 @@ XSBC-Original-Maintainer: Hugh Greenberg <hugh@galliumos.org>
 Standards-Version: 3.9.1
 
 Package: galliumos-haswell
-Provides: haswell
 Architecture: all
 Priority: required
 Depends: galliumos-base
+Provides: galliumos-device
 Replaces: galliumos-broadwell, galliumos-device-c710
 Description: Gallium OS system files for Haswell ChromeOS devices
  This package contains Haswell specific files for GalliumOS
