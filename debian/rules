@@ -1,28 +1,4 @@
 #!/usr/bin/make -f
 
-package = galliumos-haswell
-build:
-	touch build
-
-clean:
-	rm -f build
-	rm -f `find . -name "*~"`
-	rm -rf debian/tmp 
-
-binary-arch: build
-	rm -rf debian/tmp
-	install -d debian/tmp/DEBIAN
-	install -d debian/tmp/etc/initramfs-tools/scripts/init-top
-	install -d debian/tmp/etc/udev/rules.d
-	install -d debian/tmp/etc/modprobe.d
-	install -p -m 755 etc/initramfs-tools/scripts/init-top/* debian/tmp/etc/initramfs-tools/scripts/init-top
-	install -p -m 644 etc/udev/rules.d/* debian/tmp/etc/udev/rules.d
-	install -p -m 644 etc/modprobe.d/* debian/tmp/etc/modprobe.d
-	install -d debian/tmp/lib/systemd/system-sleep
-	install -p -m 755 lib/systemd/system-sleep/* debian/tmp/lib/systemd/system-sleep
-	dpkg-gencontrol -pgalliumos-haswell
-	dpkg-deb --build -Zgzip debian/tmp ..
-
-binary: binary-arch
-
-.PHONY: binary binary-arch clean
+%:
+	dh $@

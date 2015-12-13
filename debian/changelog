@@ -1,3 +1,9 @@
+galliumos-haswell (1.0.22) vivid-galliumos; urgency=medium
+
+  * Conflict with other galliumos-device providers. Fix postinst.
+
+ -- Colton DRG <coltondrg@galliumos.org>  Wed, 9 Dec 2015 22:16:16 -0600
+
 galliumos-haswell (1.0.21) vivid-galliumos; urgency=medium
 
   * Modified /etc/modprobe.d/snd-hda-intel.conf to remove power_save=0
