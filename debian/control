@@ -12,5 +12,5 @@ Depends: galliumos-base
 Provides: galliumos-device
 Conflicts: galliumos-broadwell, galliumos-sandy, galliumos-baytrail
 Replaces: galliumos-broadwell, galliumos-sandy, galliumos-baytrail
-Description: Gallium OS system files for Haswell ChromeOS devices
- This package contains Haswell specific files for GalliumOS
+Description: GalliumOS Haswell customizations
+ This package contains Haswell-specific files for GalliumOS
