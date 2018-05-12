@@ -1,8 +1,7 @@
 Source: galliumos-haswell
 Section: admin
 Priority: required
-Maintainer: Hugh Greenberg <hugh@galliumos.org>
-XSBC-Original-Maintainer: Hugh Greenberg <hugh@galliumos.org>
+Maintainer: GalliumOS <galliumos@galliumos.org>
 Standards-Version: 3.9.1
 
 Package: galliumos-haswell
