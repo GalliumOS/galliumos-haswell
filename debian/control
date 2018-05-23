@@ -7,9 +7,9 @@ Standards-Version: 3.9.1
 Package: galliumos-haswell
 Architecture: all
 Priority: required
-Depends: galliumos-base
+Depends: galliumos-base, linux-image-galliumos-haswell
 Provides: galliumos-device
-Conflicts: galliumos-broadwell, galliumos-sandy, galliumos-baytrail
-Replaces: galliumos-broadwell, galliumos-sandy, galliumos-baytrail
+Conflicts: galliumos-sandyivy, Xgalliumos-haswell, galliumos-baytrail, galliumos-broadwell, galliumos-samus, galliumos-braswell, galliumos-skylake, galliumos-apollolake, galliumos-kabylake
+#Replaces: galliumos-broadwell, galliumos-sandyivy, galliumos-baytrail
 Description: GalliumOS Haswell customizations
  This package contains Haswell-specific files for GalliumOS
